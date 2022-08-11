@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    margin: 0;
+    background-image: url("https://cdn.britannica.com/44/193844-050-11485B18/ball-net-basketball-game-arena.jpg?q=60")
+
+}
+h3{
+    font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+margin-bottom: 21px;
+margin-top:70px;
+
+color: #EEEEEE;
+}
+
+.container {
+    
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+height: 385px;
+
+background: #1B244A;
+margin: 50px auto;
+
+}
+
+@font-face{
+    src: url("CursedTimerULiL.ttf");
+    font-family: Score;
+}
+
+.score{
+    width: 155px;
+    height: 120px;
+    background: #080001;
+    color: #F94F6D;
+    font-size: 90px;
+    
+    line-height: 127px;
+    font-family: Score;
+    margin-top: 0;
+    border-radius: 5px;
+    margin-bottom: 26px;
+    }
+   #space{
+       margin-right: 100px;
+       margin-left: 82px;
+       
+   } 
+   #space1{
+       margin-right: 83px;
+   }
+   .btn{
+       width: 45px;
+       height: 45px;
+ border: 2px solid #9AABD8;
+ color: #9AABD8;
+ border-radius: 5px;
+ font-family: Score;
+ text-align: center;
+ font-weight: 400;
+ font-size: 18px;
+ line-height: 28px;
+ background: #1B244A;
+ 
+   }
+    
+  
+    
